@@ -15,4 +15,6 @@ bold.parentElement.parentElement.parentElement.previousElementSibling.children[0
     element.style.color = "green";
     });
 
-bold.parentElement.parentElement.parentElement.previousElementSibling.querySelector("h1").style.textTransform = "uppercase";
+bold.parentElement.parentElement.parentElement.previousElementSibling.getElementsByTagName("h1")[0].style.textTransform="uppercase"
+
+console.log(bold.parentElement.parentElement.parentElement.previousElementSibling.getElementsByTagName("h1")[0]);
